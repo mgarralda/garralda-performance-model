@@ -1,0 +1,36 @@
+Results:
+Dou Performance Model
+
+1º Experimental DS
+LOOCV:
+	MAE: 220.28
+	RMSE: 740.00
+	HME: 339.50
+LOGOCV:
+	MAE: 236.79
+	RMSE: 378.35
+	HME: 290.32
+AME: 314.91
+
+2º Experimental DS'
+LOOCV:
+	MAE: 159.88
+	RMSE: 565.75
+	HME: 249.30
+LOGOCV:
+	MAE: 241.40
+	RMSE: 386.67
+	HME: 296.34
+AME: 272.82
+
+3º Experimental DS''
+LOOCV:
+	MAE: 168.97
+	RMSE: 609.89
+	HME: 264.63
+LOGOCV:
+	MAE: 199.84
+	RMSE: 331.84
+	HME: 248.47
+AME: 256.55
+

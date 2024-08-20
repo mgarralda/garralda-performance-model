@@ -1,0 +1,37 @@
+Results:
+Prats Performance Model
+
+1º Experimental DS
+LOOCV:
+	MAE: 128.24
+	RMSE: 400.08
+	HME: 194.22
+LOGOCV:
+	MAE: 296.69
+	RMSE: 405.42
+	HME: 339.05
+AME: 266.63
+
+2º Experimental DS'
+LOOCV:
+	MAE: 44.10
+	RMSE: 143.68
+	HME: 67.49
+LOGOCV:
+	MAE: 254.82
+	RMSE: 369.42
+	HME: 299.30
+AME: 183.39
+
+3º Experimental DS''
+LOOCV:
+	MAE: 61.13
+	RMSE: 234.26
+	HME: 96.96
+LOGOCV:
+	MAE: 160.59
+	RMSE: 238.07
+	HME: 189.93
+AME: 143.45
+
+
