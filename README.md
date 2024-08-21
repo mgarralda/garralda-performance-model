@@ -1,5 +1,6 @@
 # Garralda-Performance-Model
 ## Adaptive Incremental Transfer Learning for Efficient Performance Modeling of Big Data Workloads
+👉 [Original paper](https://github.com/mgarralda/garralda-performance-model/)
 
 ## Overview
 The advent of data-intensive scalable computing systems, like Apache Spark, has revolutionized data processing by enabling efficient manipulation of
