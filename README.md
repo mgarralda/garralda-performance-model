@@ -54,11 +54,12 @@ If you use this project, its code, or any of its components in your research, pu
 
 ```bibtex
 @misc{garralda-perf-model,
-  author = {Mariano Garralda-Barrio and Carlos Eiras-Franco and Verónica Bolón-Canedo},
-  title = {Adaptive incremental transfer learning for efficient performance modeling of big data workloads},
-  year = {2024},
-  howpublished = {\url{https://github.com/mgarralda/garralda-perf-model}},
-  keywords = {Big data, Performance model, Apache Spark, Machine learning},
+    author = {Mariano Garralda-Barrio and Carlos Eiras-Franco and Verónica Bolón-Canedo},
+    title = {Garralda-Performance-Model: A software implementation of `{Adaptive incremental transfer learning for efficient performance modeling
+    of big data workloads}'},
+    year = {2024},
+    howpublished = {\url{https://github.com/mgarralda/garralda-performance-model}},
+    keywords = {Big data, Performance model, Apache Spark, Machine learning},
 }
 ```
 
