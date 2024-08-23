@@ -2,36 +2,58 @@ Results:
 Prats Performance Model
 
 1º Experimental DS
-LOOCV:
-	MAE: 128.24
-	RMSE: 400.08
-	HME: 194.22
-LOGOCV:
-	MAE: 296.69
-	RMSE: 405.42
-	HME: 339.05
-AME: 266.63
+    LOOCV: Evaluation Metrics:
+        MAE: 136.40
+        RMSE: 424.43
+        HME: 206.45
+        Residual Max: 4009.95
+        Residual Mean: 136.40
+        Residual Median: 31.52
+        Residual Std. Dev.: 401.91
+    LOGOCV: Evaluation Metrics:
+        MAE: 293.61
+        RMSE: 412.36
+        HME: 339.59
+        Residual Max: 788.54
+        Residual Mean: 293.61
+        Residual Median: 149.71
+        Residual Std. Dev.: 270.62
+    AME: 273.02
 
 2º Experimental DS'
-LOOCV:
-	MAE: 44.10
-	RMSE: 143.68
-	HME: 67.49
-LOGOCV:
-	MAE: 254.82
-	RMSE: 369.42
-	HME: 299.30
-AME: 183.39
+    LOOCV: Evaluation Metrics:
+        MAE: 44.10
+        RMSE: 143.68
+        HME: 67.49
+        Residual Max: 1543.50
+        Residual Mean: 44.10
+        Residual Median: 9.13
+        Residual Std. Dev.: 136.74
+    LOGOCV: Evaluation Metrics:
+        MAE: 254.82
+        RMSE: 369.42
+        HME: 299.30
+        Residual Max: 739.52
+        Residual Mean: 254.82
+        Residual Median: 120.12
+        Residual Std. Dev.: 255.57
+    AME: 183.39
 
 3º Experimental DS''
-LOOCV:
-	MAE: 61.13
-	RMSE: 234.26
-	HME: 96.96
-LOGOCV:
-	MAE: 160.59
-	RMSE: 238.07
-	HME: 189.93
-AME: 143.45
-
-
+    LOOCV: Evaluation Metrics:
+        MAE: 61.13
+        RMSE: 234.26
+        HME: 96.96
+        Residual Max: 2879.04
+        Residual Mean: 61.13
+        Residual Median: 12.22
+        Residual Std. Dev.: 226.14
+    LOGOCV: Evaluation Metrics:
+        MAE: 160.59
+        RMSE: 238.07
+        HME: 189.93
+        Residual Max: 508.65
+        Residual Mean: 160.59
+        Residual Median: 84.13
+        Residual Std. Dev.: 167.42
+    AME: 143.45
