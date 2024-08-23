@@ -2,35 +2,58 @@ Results:
 Dou Performance Model
 
 1º Experimental DS
-LOOCV:
-	MAE: 220.28
-	RMSE: 740.00
-	HME: 339.50
-LOGOCV:
-	MAE: 236.79
-	RMSE: 378.35
-	HME: 290.32
-AME: 314.91
+    LOOCV: Evaluation Metrics:
+        MAE: 229.04
+        RMSE: 761.25
+        HME: 352.13
+        Residual Max: 4723.26
+        Residual Mean: 229.04
+        Residual Median: 25.70
+        Residual Std. Dev.: 725.98
+    LOGOCV: Evaluation Metrics:
+        MAE: 234.47
+        RMSE: 372.55
+        HME: 286.90
+        Residual Max: 752.12
+        Residual Mean: 234.47
+        Residual Median: 69.08
+        Residual Std. Dev.: 287.30
+    AME: 319.51
 
 2º Experimental DS'
-LOOCV:
-	MAE: 159.88
-	RMSE: 565.75
-	HME: 249.30
-LOGOCV:
-	MAE: 241.40
-	RMSE: 386.67
-	HME: 296.34
-AME: 272.82
+    LOOCV: Evaluation Metrics:
+        MAE: 159.88
+        RMSE: 565.75
+        HME: 249.30
+        Residual Max: 4239.42
+        Residual Mean: 159.88
+        Residual Median: 16.33
+        Residual Std. Dev.: 542.69
+    LOGOCV: Evaluation Metrics:
+        MAE: 241.40
+        RMSE: 386.67
+        HME: 296.34
+        Residual Max: 847.61
+        Residual Mean: 241.40
+        Residual Median: 71.29
+        Residual Std. Dev.: 299.93
+    AME: 272.82
 
 3º Experimental DS''
-LOOCV:
-	MAE: 168.97
-	RMSE: 609.89
-	HME: 264.63
-LOGOCV:
-	MAE: 199.84
-	RMSE: 331.84
-	HME: 248.47
-AME: 256.55
-
+    LOOCV: Evaluation Metrics:
+        MAE: 168.97
+        RMSE: 609.89
+        HME: 264.63
+        Residual Max: 4198.21
+        Residual Mean: 168.97
+        Residual Median: 16.09
+        Residual Std. Dev.: 586.02
+    LOGOCV: Evaluation Metrics:
+        MAE: 199.84
+        RMSE: 331.84
+        HME: 248.47
+        Residual Max: 744.56
+        Residual Mean: 199.84
+        Residual Median: 54.08
+        Residual Std. Dev.: 262.68
+    AME: 256.55
