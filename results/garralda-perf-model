@@ -2,71 +2,58 @@ Results:
 Garralda Performance Model With NNSL
 
 1º Experimental DS
-LOOCV
-	MAE: 88.47
-	RMSE: 214.79
-	HME: 125.32
-LOGOCV
-	MAE: 225.38
-	RMSE: 361.51
-	HME: 276.24
-AME: 199.85
+    LOOCV: Evaluation Metrics:
+        MAE: 88.47
+        RMSE: 214.79
+        HME: 125.32
+        Residual Max: 1200.43
+        Residual Mean: 88.47
+        Residual Median: 16.96
+        Residual Std. Dev.: 195.73
+    LOGOCV: Evaluation Metrics:
+        MAE: 225.38
+        RMSE: 361.51
+        HME: 276.24
+        Residual Max: 799.29
+        Residual Mean: 225.38
+        Residual Median: 80.40
+        Residual Std. Dev.: 279.56
+    AME: 200.78
 
 2º Experimental DS'
-LOOCV:
-	MAE: 52.70
-	RMSE: 146.68
-	HME: 77.55
-LOGOCV
-	MAE: 219.86
-	RMSE: 362.18
-	HME: 271.99
-AME: 174.77
+    LOOCV: Evaluation Metrics:
+        MAE: 52.70
+        RMSE: 146.68
+        HME: 77.55
+        Residual Max: 1462.73
+        Residual Mean: 52.70
+        Residual Median: 6.38
+        Residual Std. Dev.: 136.89
+    LOGOCV: Evaluation Metrics:
+        MAE: 219.86
+        RMSE: 362.18
+        HME: 271.99
+        Residual Max: 829.58
+        Residual Mean: 219.86
+        Residual Median: 86.49
+        Residual Std. Dev.: 284.14
+    AME: 174.77
 
 3º Experimental DS''
-LOOCV
-	MAE: 59.76
-	RMSE: 175.89
-	HME: 89.21
-LOGOCV
-	MAE: 108.58
-	RMSE: 177.43
-	HME: 133.89
-AME: 111.55
-
-
-Results:
-Linear vs non-linear base-learner repressor in the supervised stage
-
-Garralda Performance Model with AdaBoost
-LOOCV
-	MAE: 123.32
-	RMSE: 275.51
-	HME: 170.37
-LOGOCV:
-	MAE: 293.46
-	RMSE: 478.33
-	HME: 361.55
-AME: 265.96
-
-Garralda Performance Model with Gradient Boosting
-LOOCV:
-	MAE: 115.60
-	RMSE: 247.90
-	HME: 157.67
-LOGOCV:
-	MAE: 269.63
-	RMSE: 440.22
-	HME: 331.80
-AME: 244.74
-
-Garralda Performance Model with Random Forest
-LOOCV:
-	MAE: 115.26
-	RMSE: 256.22
-	HME: 159.00
-LOGOCV:
-	MAE: 257.80
-	RMSE: 398.10
-	HME: 311.35
-AME: 235.17
+    LOOCV: Evaluation Metrics:
+        MAE: 59.76
+        RMSE: 175.89
+        HME: 89.21
+        Residual Max: 1498.40
+        Residual Mean: 59.76
+        Residual Median: 7.18
+        Residual Std. Dev.: 165.42
+    LOGOCV: Evaluation Metrics:
+        MAE: 108.58
+        RMSE: 177.43
+        HME: 133.89
+        Residual Max: 406.75
+        Residual Mean: 108.58
+        Residual Median: 37.18
+        Residual Std. Dev.: 138.73
+    AME: 111.55
