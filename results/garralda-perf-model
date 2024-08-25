@@ -57,3 +57,42 @@ Garralda Performance Model With NNSL
         Residual Median: 37.18
         Residual Std. Dev.: 138.73
     AME: 111.55
+
+
+
+Results:
+Linear vs non-linear base-learner repressor in the supervised stage
+
+Garralda Performance Model with AdaBoost
+    LOOCV
+        MAE: 123.32
+        RMSE: 275.51
+        HME: 170.37
+    LOGOCV:
+        MAE: 293.46
+        RMSE: 478.33
+        HME: 361.55
+    AME: 265.96
+
+Garralda Performance Model with Gradient Boosting
+    LOOCV:
+        MAE: 115.60
+        RMSE: 247.90
+        HME: 157.67
+    LOGOCV:
+        MAE: 269.63
+        RMSE: 440.22
+        HME: 331.80
+    AME: 244.74
+
+Garralda Performance Model with Random Forest
+    LOOCV:
+        MAE: 115.26
+        RMSE: 256.22
+        HME: 159.00
+    LOGOCV:
+        MAE: 257.80
+        RMSE: 398.10
+        HME: 311.35
+    AME: 235.17
+
