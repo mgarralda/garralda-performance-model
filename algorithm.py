@@ -10,7 +10,7 @@ License: MIT License (see LICENSE file for details)
 Date: 2024
 
 Usage:
-- Import the `GarraldaPerformanceModel` class and use the `get_performance_model` or `predict` methods to train or inference.
+- Import the `GarraldaPerformanceModel` class and use the `get_performance_model` or `fit_predict` methods to train or inference.
 - See the documentation or README for more details on how to use this module.
 
 Example:
@@ -336,7 +336,7 @@ class GarraldaPerformanceModel:
 
         return regressor
 
-    def predict(
+    def fit_predict(
             self,
             workload_descriptors: np.ndarray,
             configuration_settings: np.ndarray,
