@@ -43,12 +43,10 @@ class PratsPerformanceModel:
 
     def get_random_forest_regressor_model(
             self,
-            # workload_descriptors: np.ndarray,
-            # input_data_sizes: np.ndarray,
-            # configuration_settings: np.ndarray,
-            # execution_times: np.ndarray,
-            X: np.ndarray,
-            y: np.ndarray,
+            workload_descriptors: np.ndarray,
+            input_data_sizes: np.ndarray,
+            configuration_settings: np.ndarray,
+            execution_times: np.ndarray,
     ) -> GridSearchCV:
         """
         Random Forest Regressor model for performance prediction
