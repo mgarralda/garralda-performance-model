@@ -43,7 +43,7 @@ Example command to use the performance model for predicting execution times of n
     predictions = trained_model.predict(new_config_settings)
 
     # Option 2: To lazy train and predict execution time for new configuration settings in one step
-    predictions = model.predict(workload_descriptors, config_settings, exec_times, workload_ref, new_config_settings, k_min, k_max)
+    predictions = model.fit_predict(workload_descriptors, config_settings, exec_times, workload_ref, new_config_settings, k_min, k_max)
 ```
 
 ## License
