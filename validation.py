@@ -97,7 +97,7 @@ class CrossValidation:
 
             try:
                 # Lazy training and prediction
-                prediction = self.perf_model.predict(
+                prediction = self.perf_model.fit_predict(
                     workload_descriptors=w_train,
                     configuration_settings=cs_train,
                     execution_times=t_train,
@@ -144,7 +144,7 @@ class CrossValidation:
                 t_test_i = t_test[i]
 
                 try:
-                    prediction = self.perf_model.predict(
+                    prediction = self.perf_model.fit_predict(
                         workload_descriptors=w_train,
                         configuration_settings=cs_train,
                         execution_times=t_train,
