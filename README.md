@@ -23,7 +23,7 @@ The supervised stage is responsible for lazily training the base-learner regress
 new configurations of the reference workload descriptor.
 Below illustrates the comprehensive workflow of the proposed methodology.
 
-![Proposed Methodology](workflow.png)
+![Proposed Methodology](proposed_methodology.png)
 
 ## Features
 - Optimal neighbor selection using exploration-exploitation balance coefficient.
