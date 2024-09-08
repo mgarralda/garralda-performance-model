@@ -14,6 +14,16 @@ This research serves as an important component for an efficient performance tuni
 workloads to new, unseen ones.
 
 ## Methodology
+In the context of machine learning, the terms adaptive and incremental are often used interchangeably but convey distinct concepts.
+Overall, incremental learning refers to a process where updates are made gradually over time as new data becomes available, without retraining the
+entire model from scratch.
+Adaptive learning, on the other hand, emphasizes the model's ability to adjust its parameters, structure, or predictions in response to new
+information or changing conditions.
+Specifically, in our approach, adaptive learning refers to the capability of balancing between exploration and exploitation in selecting the most
+insightful workload descriptors in the latent representation.
+Incremental learning is the ability to continuously deal with new workload executions efficiently due to the potential to lazily train the predictive
+model.
+
 Garralda-Performance-Model integrates both unsupervised and supervised learning stages to incrementally leverage the knowledge of historical workload 
 executions.
 The unsupervised stage adaptively transfers learning from historical data by extracting insightful workload descriptors relative to a given
