@@ -1,6 +1,6 @@
 # Garralda-Performance-Model
 ## Adaptive Incremental Transfer Learning for Efficient Performance Modeling of Big Data Workloads
-👉 [Original paper](https://github.com/mgarralda/garralda-performance-model/)
+👉 [Original paper](https://www.sciencedirect.com/science/article/pii/S0167739X25000251)
 
 ## Overview
 The advent of data-intensive scalable computing systems, like Apache Spark, has revolutionized data processing by enabling efficient manipulation of
@@ -64,13 +64,16 @@ Non-software content, such as documentation, is licensed under a [Creative Commo
 If you use this project, its code, or any of its components in your research, publications, or any derivative work, please ensure proper citation as follows:
 
 ```bibtex
-@misc{garralda-perf-model,
+@article{GARRALDABARRIO2025107730,
+    title = {Adaptive incremental transfer learning for efficient performance modeling of big data workloads},
+    journal = {Future Generation Computer Systems},
+    pages = {107730},
+    year = {2025},
+    issn = {0167-739X},
+    doi = {https://doi.org/10.1016/j.future.2025.107730},
+    url = {https://www.sciencedirect.com/science/article/pii/S0167739X25000251},
     author = {Mariano Garralda-Barrio and Carlos Eiras-Franco and Verónica Bolón-Canedo},
-    title = {Garralda-Performance-Model: A software implementation of `{Adaptive incremental transfer learning for efficient performance modeling
-    of big data workloads}'},
-    year = {2024},
-    howpublished = {\url{https://github.com/mgarralda/garralda-performance-model}},
-    keywords = {Big data, Performance model, Apache Spark, Machine learning},
+    keywords = {Performance modeling, Big data, Machine learning, Apache spark, Distributed computing}
 }
 ```
 
