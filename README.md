@@ -3,8 +3,7 @@
 👉 [Original paper](https://www.sciencedirect.com/science/article/pii/S0167739X25000251)
 
 ## Overview
-The advent of data-intensive scalable computing systems, like Apache Spark, has revolutionized data processing by enabling efficient manipulation of
-large datasets across machine clusters.
+The advent of data-intensive scalable computing systems, like Apache Spark, has revolutionized data processing by enabling efficient manipulation of large datasets across machine clusters.
 However, optimizing system configurations for performance remains a challenge.
 This work presents an adaptive incremental transfer learning for predicting workload execution times.
 By combining unsupervised and supervised learning stages, we build models that incrementally adapt to new workloads and configurations.
@@ -40,28 +39,11 @@ Below illustrates the comprehensive workflow of the proposed methodology.
 - Non-negative least squares regression for lazy performance prediction.
 - Scalable and adaptable to various big data workloads.
 
-## Usage
-Example command to use the performance model for predicting execution times of new configurations.
-
-```sh
-    from perf_model import GarraldaPerformanceModel
-    
-    model = GarraldaPerformanceModel()
-
-    # Option 1: To get the trained performance model and predict execution time for new configuration settings
-    trained_model = model.train(workload_descriptors, config_settings, exec_times, workload_ref, k_min, k_max)
-    predictions = trained_model.predict(new_config_settings)
-
-    # Option 2: To lazy train and predict execution time for new configuration settings in one step
-    predictions = model.fit_predict(workload_descriptors, config_settings, exec_times, workload_ref, new_config_settings, k_min, k_max)
-```
-
-## License
-This project is licensed under the MIT License for the software code. See the [LICENSE](LICENSE) file for more details.
-Non-software content, such as documentation, is licensed under a [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/).
-
 ## Citation
-If you use this project, its code, or any of its components in your research, publications, or any derivative work, please ensure proper citation as follows:
+
+If you use this project, its methodology, code, datasets, workload descriptors, or derived components in research, benchmarking studies, technical documentation, or derivative works, please cite the associated article and/or doctoral thesis.
+
+### Article
 
 ```bibtex
 @article{GARRALDABARRIO2025107730,
@@ -73,9 +55,41 @@ If you use this project, its code, or any of its components in your research, pu
     doi = {https://doi.org/10.1016/j.future.2025.107730},
     url = {https://www.sciencedirect.com/science/article/pii/S0167739X25000251},
     author = {Mariano Garralda-Barrio and Carlos Eiras-Franco and Verónica Bolón-Canedo},
-    keywords = {Performance modeling, Big data, Machine learning, Apache spark, Distributed computing}
+    keywords = {Performance modeling, Big data, Machine learning, Apache Spark, Distributed computing}
 }
 ```
+
+### Doctoral Thesis
+
+```bibtex
+@phdthesis{GarraldaBarrio2026,
+    author    = {Mariano Garralda Barrio},
+    title     = {AI-Driven Optimization in Distributed Computing Systems: A Self-Tuning Framework},
+    school    = {University of Coruña},
+    year      = {2026},
+    type      = {Doctoral Thesis},
+    url       = {https://hdl.handle.net/2183/48114}
+}
+```
+
+### References
+
+- Garralda-Barrio, M., Eiras-Franco, C., & Bolón-Canedo, V. (2025).  
+  *Adaptive incremental transfer learning for efficient performance modeling of big data workloads*.  
+  Future Generation Computer Systems.  
+  https://doi.org/10.1016/j.future.2025.107730
+
+- Garralda Barrio, M. (2026).  
+  *AI-Driven Optimization in Distributed Computing Systems: A Self-Tuning Framework*.  
+  Doctoral Thesis, University of Coruña.  
+  https://hdl.handle.net/2183/48114
+
+## License
+This project is licensed under the MIT License for the software code. See the [LICENSE](LICENSE) file for more details.
+Non-software content, such as documentation, is licensed under a [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/).
+
+## Citation
+If you use this project, its code, or any of its components in your research, publications, or any derivative work, please ensure proper citation as follows:
 
 ## Contact
 For any questions or feedback, please contact [mariano.garralda@udc.es](mailto:mariano.garralda@udc.es)
